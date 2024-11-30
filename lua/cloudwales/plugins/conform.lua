@@ -7,6 +7,7 @@ return {
         php = {
           {
             "pint",
+            "php_cs_fixer",
             args = { "--config=pint.json" }, -- Specify your config file
           },
           html = {
@@ -15,6 +16,7 @@ return {
           },
           blade = {
             "htmlbeautifier",
+            "blade-formatter",
           },
         },
       },

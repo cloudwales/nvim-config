@@ -4,12 +4,14 @@ local opt = vim.opt
 
 opt.relativenumber = true
 opt.number = true
+vim.g.lazyvim_php_lsp = "intelephense"
 
 -- tabs and indents
-opt.tabstop = 2 -- 2 spaces for tabs (prettire default)
-opt.shiftwidth = 2 -- 2 spaces for indent width
-opt.expandtab = true -- extend tab to spaces
-opt.autoindent = true -- copy indent from current line when starting new one
+vim.opt.scrolloff = 999
+vim.opt.autoindent = true
+vim.opt.expandtab = false
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
 
 opt.wrap = false
 
